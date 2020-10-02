@@ -80,6 +80,10 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Libreria/out/artifacts/Libreria_jar/Libreria.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -189,25 +193,37 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="552" y="238" key="#Notifications/0.0.1920.1160@0.0.1920.1160" timestamp="1601134723198" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1601137019680">
+    <state x="950" y="326" key="FileChooserDialogImpl" timestamp="1601663036445">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1601137019680" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1601137019679">
+    <state x="950" y="326" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1601663036445" />
+    <state width="914" height="320" key="GridCell.Tab.0.bottom" timestamp="1601663284916">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1601137019679" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1601137019679">
+    <state width="914" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1601663284916" />
+    <state width="914" height="320" key="GridCell.Tab.0.center" timestamp="1601663284916">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1601137019679" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1601137019679">
+    <state width="914" height="320" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1601663284916" />
+    <state width="914" height="320" key="GridCell.Tab.0.left" timestamp="1601663284915">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1601137019679" />
-    <state x="461" y="222" key="SettingsEditor" timestamp="1601134907675">
+    <state width="914" height="320" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1601663284915" />
+    <state width="914" height="320" key="GridCell.Tab.0.right" timestamp="1601663284916">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="461" y="222" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1601134907675" />
+    <state width="914" height="320" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1601663284916" />
+    <state x="461" y="222" key="SettingsEditor" timestamp="1601663042211">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="461" y="222" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1601663042211" />
+    <state x="656" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1601660503446">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="656" y="404" key="com.intellij.ide.util.TipDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1601660503446" />
+    <state x="553" y="287" key="new project wizard" timestamp="1601660612928">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="553" y="287" key="new project wizard/0.0.1920.1160@0.0.1920.1160" timestamp="1601660612928" />
   </component>
 </project>
