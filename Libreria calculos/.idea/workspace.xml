@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Libreria calculos:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="052de367-3162-4bcb-b09b-3ba09378d0ac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jNsINaOvyMyXqvS4ErCoG7PrP6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="052de367-3162-4bcb-b09b-3ba09378d0ac" name="Default Changelist" comment="" />
+      <created>1603655802092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603655802092</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1032" y="238" key="#Project_Structure" timestamp="1603655808777">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1032" y="238" key="#Project_Structure/0.0.1920.1160@0.0.1920.1160" timestamp="1603655808777" />
+    <state x="1245" y="296" key="#com.intellij.ide.util.MemberChooser" timestamp="1603655892576">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1245" y="296" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1603655892576" />
+    <state x="1130" y="431" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603656808150">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1130" y="431" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1603656808150" />
+    <state x="880" y="222" key="SettingsEditor" timestamp="1603656814231">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="880" y="222" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1603656814231" />
+  </component>
+</project>
