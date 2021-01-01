@@ -1,0 +1,26 @@
+.fondo{
+-fx-background-image: url("./img/fondo3.jpg");
+-fx-background.size: cover ;
+}
+.button{
+-fx-background-radius: 30px;
+}
+.textField{
+-fx-background-radius: 10px;
+}
+.mSuperior{
+-fx-background-image: url("./img/superior.jpg");
+
+}
+.Izquierda{
+-fx-background-image: url("./img/Izquierda.jpg");
+
+}
+.atras{
+-fx-background-radius: 30px;
+-fx-background-color: #397494
+}
+.fondo2{
+-fx-background-color: #397494
+
+}

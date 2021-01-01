@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="Izquierda" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerCall">
+   <children>
+      <ImageView fitHeight="423.0" fitWidth="285.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/callofdutyinfinitewarfare.jpg" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="300.0" layoutY="14.0" prefHeight="372.0" prefWidth="285.0" text="Call of Duty: Infinite Warfare es un juego de acción bélica futurista que presentará guerras a gran escala con su habitual narrativa militar. Se nos ofrecerá una nueva historia donde los jugadores deberán luchar contra el Settlement Defense Front para defender nuestro modo de vida a través del Sistema Solar." wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </TextArea>
+      <Button layoutX="533.0" layoutY="361.0" mnemonicParsing="false" onAction="#atras4" text="Atras" />
+   </children>
+</AnchorPane>

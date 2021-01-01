@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="500.0" maxWidth="600.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerCobrar">
+   <top>
+      <HBox prefHeight="70.0" prefWidth="600.0" styleClass="mSuperior" stylesheets="@estilos.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label prefHeight="43.0" prefWidth="167.0" text="BEAR" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="13.0" top="10.0" />
+               </HBox.margin>
+               <effect>
+                  <DropShadow color="#26eb40" />
+               </effect>
+            </Label>
+            <Pane prefHeight="70.0" prefWidth="359.0" styleClass="mSuperior" HBox.hgrow="ALWAYS" />
+            <ImageView fitHeight="71.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/L.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="nombrePedido" prefHeight="34.0" prefWidth="192.0" text="Brian Elias" textFill="WHITE">
+               <HBox.margin>
+                  <Insets top="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+   <left>
+      <VBox prefHeight="255.0" prefWidth="162.0" styleClass="mSuperior" stylesheets="@estilos.css" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <children>
+            <ComboBox fx:id="comboJuego" prefWidth="150.0" promptText="Juego" />
+            <TextField fx:id="txtCantidad" promptText="Cantidad">
+               <VBox.margin>
+                  <Insets top="13.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="txtNombre" promptText="Nombre">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+            </TextField>
+            <Button mnemonicParsing="false" onAction="#añadirCarro" prefHeight="25.0" prefWidth="138.0" text="Añadir a carrito">
+               <VBox.margin>
+                  <Insets top="17.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#guardarCompra" prefHeight="25.0" prefWidth="130.0" text="Guardar compra">
+               <VBox.margin>
+                  <Insets top="9.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#finalizar" text="Finalizar">
+               <VBox.margin>
+                  <Insets left="33.0" top="18.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <bottom>
+      <VBox prefHeight="129.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="tabla" prefHeight="175.0" prefWidth="600.0" />
+         </children>
+      </VBox>
+   </bottom>
+   <center>
+      <HBox styleClass="Izquierda" stylesheets="@estilos.css" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="116.0" fitWidth="81.0" onMouseClicked="#fray" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/farcry3.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets left="36.0" top="126.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="ivBor" fitHeight="116.0" fitWidth="81.0" onMouseClicked="#ivBor" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/borderlands3.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-80.0" top="4.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="116.0" fitWidth="81.0" onMouseClicked="#nba" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/nba2k16.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="11.0" top="126.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="116.0" fitWidth="81.0" onMouseClicked="#tomb" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/tombraider.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-79.0" top="3.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="116.0" fitWidth="81.0" onMouseClicked="#gta" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/gtasanandreas.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets left="12.0" top="126.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="116.0" fitWidth="81.0" onMouseClicked="#doom" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/doom3.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-81.0" top="3.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="116.0" fitWidth="81.0" onMouseClicked="#mtk" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/mortalkombatkompleteedition.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets left="10.0" top="126.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fitHeight="111.0" fitWidth="81.0" onMouseClicked="#call" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/callofdutyinfinitewarfare.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets left="-80.0" top="3.0" />
+               </HBox.margin>
+            </ImageView>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>

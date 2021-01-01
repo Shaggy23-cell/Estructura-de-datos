@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="Izquierda" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerMTK">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/mortalkombatkompleteedition.jpg" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="290.0" layoutY="14.0" prefHeight="373.0" prefWidth="300.0" text="Mortal Kombat o Mortal Kombat 9 es un videojuego de lucha, con un plano bidimensional y gráficos tridimensionales. Es la novena entrega de la serie de Mortal Kombat, fue desarrollado por NetherRealm Studios (antes conocida como Midway Games) y publicado exclusivamente bajo la licencia de Warner Bros." wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </TextArea>
+      <Button layoutX="527.0" layoutY="355.0" mnemonicParsing="false" onAction="#atras8" text="Atras" />
+   </children>
+</AnchorPane>

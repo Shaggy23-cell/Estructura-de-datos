@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="Izquierda" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerFarCry">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="378.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/farcry3.jpg" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="290.0" layoutY="14.0" prefHeight="368.0" prefWidth="301.0" text="Far Cry 3 (estilizado como FARCRY3) es un juego de acción y supervivencia en el trópico, creado por Ubisoft Montreal y Massive Studios que se lanzó el 29 de noviembre del 2012 para PlayStation 3, Xbox 360 y Microsoft Windows. ... Far Cry 3 toma lugar en alguna isla entre el océano Índico y el pacífico." wrapText="true">
+         <font>
+            <Font size="19.8" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </TextArea>
+      <Button layoutX="527.0" layoutY="350.0" mnemonicParsing="false" onAction="#atras5" text="Atras" />
+   </children>
+</AnchorPane>
