@@ -6,7 +6,6 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
@@ -19,31 +18,36 @@
    <top>
       <HBox prefHeight="70.0" prefWidth="600.0" styleClass="mSuperior" stylesheets="@estilos.css" BorderPane.alignment="CENTER">
          <children>
-            <Label prefHeight="43.0" prefWidth="167.0" text="BEAR" textFill="WHITE">
-               <font>
-                  <Font size="29.0" />
-               </font>
+            <Button mnemonicParsing="false" onAction="#cancelar" prefHeight="25.0" prefWidth="193.0" text="Cancelar compra" HBox.hgrow="ALWAYS">
                <HBox.margin>
-                  <Insets left="13.0" top="10.0" />
+                  <Insets left="20.0" top="15.0" />
                </HBox.margin>
-               <effect>
-                  <DropShadow color="#26eb40" />
-               </effect>
-            </Label>
-            <Pane prefHeight="70.0" prefWidth="359.0" styleClass="mSuperior" HBox.hgrow="ALWAYS" />
+            </Button>
+            <Pane prefHeight="70.0" prefWidth="359.0" styleClass="mSuperior" HBox.hgrow="ALWAYS">
+               <children>
+                  <ComboBox fx:id="comboBusqueda" layoutX="48.0" layoutY="2.0" prefHeight="25.0" prefWidth="147.0" promptText="Precio total de:" />
+                  <ImageView fitHeight="29.0" fitWidth="28.0" layoutX="14.0" layoutY="1.0" onMouseClicked="#buscarCan" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/lupa.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="cantidadJ" contentDisplay="CENTER" layoutX="205.0" layoutY="13.0" prefHeight="34.0" prefWidth="139.0" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="comboBusquedaP" layoutX="47.0" layoutY="35.0" prefHeight="25.0" prefWidth="149.0" promptText="Juego comprado:" />
+                  <ImageView fx:id="lupa" fitHeight="29.0" fitWidth="28.0" layoutX="14.0" layoutY="33.0" onMouseClicked="#buscarPrecio" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/lupa.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
             <ImageView fitHeight="71.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@img/L.png" />
                </image>
             </ImageView>
-            <Label fx:id="nombrePedido" prefHeight="34.0" prefWidth="192.0" text="Brian Elias" textFill="WHITE">
-               <HBox.margin>
-                  <Insets top="20.0" />
-               </HBox.margin>
-               <font>
-                  <Font size="23.0" />
-               </font>
-            </Label>
          </children>
       </HBox>
    </top>
@@ -79,13 +83,23 @@
                   <Insets left="33.0" top="18.0" />
                </VBox.margin>
             </Button>
+            <Button mnemonicParsing="false" onAction="#ordenDecreciente" text="▼">
+               <VBox.margin>
+                  <Insets left="68.0" top="12.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#ordenAcendente" text="▲">
+               <VBox.margin>
+                  <Insets left="30.0" top="-25.0" />
+               </VBox.margin>
+            </Button>
          </children>
       </VBox>
    </left>
    <bottom>
       <VBox prefHeight="129.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <children>
-            <TableView fx:id="tabla" prefHeight="175.0" prefWidth="600.0" />
+            <TableView fx:id="tabla" prefHeight="129.0" prefWidth="197.0" />
          </children>
       </VBox>
    </bottom>

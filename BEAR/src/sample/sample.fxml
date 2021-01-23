@@ -11,6 +11,11 @@
 
 <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" styleClass="fondo" stylesheets="@estilos.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
+      <Label text="Label">
+         <VBox.margin>
+            <Insets top="59.0" />
+         </VBox.margin>
+      </Label>
       <Label contentDisplay="CENTER" text="BEAR videogames" textAlignment="JUSTIFY" textFill="WHITE">
          <VBox.margin>
             <Insets />
@@ -41,7 +46,7 @@
             <Insets top="13.0" />
          </padding>
       </PasswordField>
-      <Button alignment="CENTER" maxWidth="200.0" mnemonicParsing="false" onAction="#login" onKeyReleased="#enter" text="Insertar">
+      <Button alignment="CENTER" maxWidth="200.0" mnemonicParsing="false" onAction="#login" onDragEntered="#enter" onKeyReleased="#enter" text="Insertar">
          <VBox.margin>
             <Insets bottom="20.0" left="20.0" right="20.0" top="10.0" />
          </VBox.margin>

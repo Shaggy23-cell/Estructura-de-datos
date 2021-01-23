@@ -24,3 +24,8 @@
 -fx-background-color: #397494
 
 }
+.fondo3{
+-fx-background-image: url("./img/fondo4.jpg");
+-fx-background.size: cover ;
+
+}
